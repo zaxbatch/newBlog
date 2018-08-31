@@ -9,4 +9,13 @@
 
             <p>{{ $post->body}}</p>
 </div>
+
+<div>
+	@include ('layouts.comments')
+</div>
+<div>
+	@include ('layouts.comment')
+</div>
+
+
 @endsection
